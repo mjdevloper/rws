@@ -1,0 +1,29 @@
+{
+  "name": "remotewebsolutions",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+   "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjdevloper/rws.git"
+  },
+  "author": "Mike Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjdevloper/rws/issues"
+  },
+  "homepage": "https://github.com/mjdevloper/rws#readme"
+}
