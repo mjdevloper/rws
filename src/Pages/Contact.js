@@ -14,26 +14,28 @@ class ContactPage extends Component {
     }
 
 
-    close() {
+    close = () => {
         this.setState({ showModal: false });
     }
-
-    open() {
+    
+    open = () => {
         this.setState({ showModal: true });
     }
     
-    handleSubmit() {
+    handleSubmit = () => {
+
+        var self = this;
 
         Axios.post('http://localhost:3001/email', {
-            message: this.state.value
+            message: self.state.value
         })
         .then(function (response) {
-            this.setState({ error: false});
-            this.open();
+            self.setState({ error: false, value: ''});
+            self.open();
         })
         .catch(function (error) {
-            this.setState({ error: true});
-            this.open();
+            self.setState({ error: true});
+            self.open();
         });
     }
 
@@ -47,6 +49,17 @@ class ContactPage extends Component {
             width: "600px",
             height: "200px"
         };
+
+        let Message
+        if(this.state.error)
+        {
+            Message = <div><h4>There was an error sending your message.</h4>
+                        <p>Please email or call us directly. Thanks!</p></div>
+        }
+        else{
+            Message = <div><h4>Your message has been delivered.</h4>
+                        <p>We typically follow up within a few hours.</p><br /><p>The next step is to setup a time to meet and talk about your needs more in depth.</p></div>
+        }
 
         return (
 
@@ -75,11 +88,11 @@ class ContactPage extends Component {
 
                 <Modal show={this.state.showModal} onHide={this.close}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Message sent</Modal.Title>
+                        <Modal.Title>Alert</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <h4>Your message has been delivered.</h4>
-                        <p>We typically follow up within a few hours. We'd be happy to schedule a time to talk in depth.</p>
+                        
+                    {Message}
 
                     </Modal.Body>
                     <Modal.Footer>

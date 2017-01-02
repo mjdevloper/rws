@@ -2159,3 +2159,8 @@ div.circle-avatar {
 .clint {
     background-image: "url(http://placekitten.com/g/400/200)"
 }
+
+.modal-body {
+    height: auto;
+    min-height: 200px;
+}
