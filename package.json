@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Website",
   "main": "index.js",
-   "devDependencies": {
+  "devDependencies": {
     "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.0",
+    "sendgrid": "^4.7.1"
   },
   "scripts": {
     "start": "react-scripts start",

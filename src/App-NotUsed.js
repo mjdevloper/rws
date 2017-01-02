@@ -1,15 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+import '../public/css/style.css';
 import Header from './Layout/Header.js';
 import Footer from './Layout/Footer.js';
 import Home from './Pages/Home.js';
 import Contact from './Pages/Contact.js';
-
-import About from './Pages/About';
-import './index.css';
-
-import '../public/css/style.css';
-
+import About from './Pages/About.js';
 import TermsAndConditions from './Pages/TermsAndConditions.js';
 
 const App = React.createClass({
@@ -45,16 +41,14 @@ const App = React.createClass({
         return (
 
             <div className="App" >
-
               <Header / >
 
               <Page />
 
               <Footer / >
-
             </div>
         )
     }
 })
 
-ReactDOM.render(<App />, document.body)
+render(<App />, document.body)

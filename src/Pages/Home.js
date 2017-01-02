@@ -9,10 +9,18 @@ import social from '../../public/images/social.png';
 import analytics from '../../public/images/analytics.png';
 
  class Home extends Component {
+   
+  constructor(props) {
+        super(props);
+       
+    }
+
   render() {
 
-
+    
     return (
+
+        
 
         <div> 
      
@@ -26,7 +34,7 @@ import analytics from '../../public/images/analytics.png';
               <div className="section-header">
 
 
-                <h2 className="dark-text">SOFTWARE DEVELOPMENT</h2>
+                <h2 className="dark-text">Solutions</h2>
                 <div className="section-legend"><br /></div>
               </div>
 
@@ -47,7 +55,11 @@ import analytics from '../../public/images/analytics.png';
 
                   <h3 className="red-border-bottom">Web Development</h3>
 
-                  <p>Take control of your websites content using Wordpress! You’ll have a professional looking site representing your brand – as well as the tools needed to increase online productivity, like e-commerce. Wordpress makes it easy. </p>
+                  <h4>New websites</h4>
+                  <h4>Custom designs</h4>
+                  <h4>Wordpress</h4>
+                  <h4>Website updates</h4>
+                   
 
                 </div>
 
@@ -64,9 +76,14 @@ import analytics from '../../public/images/analytics.png';
                   </div>
 
 
-                  <h3 className="red-border-bottom">Custom Apps</h3>
+                  <h3 className="red-border-bottom">Custom Applications</h3>
+               
+                    <h4>Mobile Apps</h4>
+                    <h4>API Development</h4>
+                    <h4>UX Development</h4>
+                    <h4>Information Systems</h4>
 
-                  <p>We have built several custom applications over the years – so our experience is deep and diverse. Some examples include: CRM apps, personnel management, inventory management, resource scheduling, time keeping, fundraising applications, payment gateways and custom APIs. </p>
+                  
 
                 </div>
 
@@ -83,9 +100,12 @@ import analytics from '../../public/images/analytics.png';
                   </div>
 
 
-                  <h3 className="red-border-bottom">Social Media &amp; Marketing</h3>
+                  <h3 className="red-border-bottom">SEO &amp; Social Media</h3>
 
-                  <p>Having a website site good, but driving traffic to your website is even better. The best way to drive traffic to your site is to be active in social media outlets and proper advertising. We have the experts that are ready to build and execute a marketing strategy for your business to maximize revenue and ROI on technology. </p>
+                    <h4>Ad Words</h4>
+                    <h4>Content Optimization</h4>
+                    <h4>Social Media Campaigns</h4>
+                    <h4>Site Traffic Analytics</h4>
 
                 </div>
 
@@ -104,15 +124,21 @@ import analytics from '../../public/images/analytics.png';
 
                   <h3 className="red-border-bottom">Data &amp; Analytics</h3>
 
-                  <p>Are you taking advantage of the cloud? Storage has never been cheaper and there are real cost savings using cloud computing. As a Microsoft partner we’re ready to implement the wide array of cloud and data analysis solutions they provide. This is the future for all information systems. </p>
+                    <h4>Data Warehousing</h4>
+                    <h4>Advanced Analytics</h4>
+                    <h4>Business Intelligence</h4>
+                    <h4>Machine Learning</h4>
+
 
                 </div>
 
 
               </div>
-
+<hr />
                <div className="section-header"><br />
-                <h2 className="dark-text">CALL TODAY!</h2><div className="section-legend"><h3>918-289-3234</h3></div>
+               <br />
+                <h2 className="dark-text">LETS GET STARTED TODAY!</h2><div className="section-legend"><h3>(539) 302-4616</h3></div>
+                <br />
               </div>
             </div>
 
@@ -122,22 +148,24 @@ import analytics from '../../public/images/analytics.png';
             <section className="about-us" id="aboutus">
               <div className="container">
                 <div className="section-header">
-                  <h2 className="white-text">OUR MISSION</h2><div className="white-text section-legend">To be your trusted technology partner. </div>
+                  <h2 className="white-text">OUR MISSION</h2><div className="white-text section-legend">To be your <b>trusted</b> technology partner. </div>
                 </div>
                 <div className="row">
                   <div className="col-lg-12 col-md-12 column zerif-rtl-big-title">
-                    <div className="big-intro" data-scrollreveal="enter left after 0s over 1s" data-sr-init="true" data-sr-complete="true">Customer satisfaction is the #1 priority. </div>
+                    <div className="big-intro" data-scrollreveal="enter left after 0s over 1s" data-sr-init="true" data-sr-complete="true">Customer satisfaction is our #1 priority. </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div className="small-intro" data-scrollreveal="enter left after 2s over 1s" data-sr-init="true" data-sr-complete="true">We're a technology company with real people skills :) </div>
+
                   </div>
-                   <div className="col-lg-6 col-md-6 column zerif-rtl-big-title">
-                    
-                  </div>
+                  
                 </div>
               </div>
             </section>
 
-            <Portfolio />
-
-            <Contact />
+            <Contact changePageContact={ this.props.changePageContact } />
      
         </div>
     );

@@ -21,27 +21,27 @@ class Banner extends Component {
 					</div>
 					<div className="da-slide">
 						<h2>We're a one stop shop </h2>
-                        <p>For all things web</p>
+                        <p>For all of your technology needs</p>
 					</div>
                     <div className="da-slide">
 						<h2>SEO / Marketing / E-Commerce</h2>
-					    <p>We know what it takes</p>
+					    <p>Our experts know what it takes to drive business</p>
 					</div>
                     <div className="da-slide">
-						<h2>Online marketing is complex</h2>
-					    <p>It's too much work</p>
+						<h2>Online marketing takes time</h2>
+					    <p>You need to focus on running your business</p>
 					</div>
                      <div className="da-slide">
 						<h2>Let us help you</h2>
-						<p>Maximize your ROI</p>
+						<p>MAXIMIZE your ROI on technology</p>
 					</div>
                     <div className="da-slide">
 						<h2>We work with you</h2>
-						<p>To ensure everyone understands the game plan</p>
+						<p>To communicate a game plan</p>
 					</div>
                     <div className="da-slide">
-						<h2>Contact Us Today</h2>
-						<p>We'd be happy to answer any of your questions!</p>
+						<h2>Contact Us Today!</h2>
+						<p>We're happy to answer any questions</p>
 						<a href="#" className="da-link"><span>CONTACT US TODAY!</span></a>
 					</div>
 					<nav className="da-arrows">

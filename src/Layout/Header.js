@@ -8,7 +8,7 @@ class Header extends Component {
         <div>
             <div className="logo">
                 <img alt="Remote Web Solutions" src={logo} />
-                <h3>Technology solutions for your business. </h3>
+                <h3>Technology consultants</h3>
             </div>
         </div>
     );
