@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Banner from '../Components/Banner.js';
-import Portfolio from '../Components/Portfolio.js';
+import Customers from '../Components/Customers.js';
 import Contact from '../Components/Contact.js';
 
 import web from '../../public/images/web.png';
@@ -134,12 +134,8 @@ import analytics from '../../public/images/analytics.png';
 
 
               </div>
-<hr />
-               <div className="section-header"><br />
+              <br />
                <br />
-                <h2 className="dark-text">LETS GET STARTED TODAY!</h2><div className="section-legend"><h3>(539) 302-4616</h3></div>
-                <br />
-              </div>
             </div>
 
             </div>
@@ -154,16 +150,23 @@ import analytics from '../../public/images/analytics.png';
                   <div className="col-lg-12 col-md-12 column zerif-rtl-big-title">
                     <div className="big-intro" data-scrollreveal="enter left after 0s over 1s" data-sr-init="true" data-sr-complete="true">Customer satisfaction is our #1 priority. </div>
                     <br />
+                    <div className="small-intro" data-scrollreveal="enter left after 2s over 1s" data-sr-init="true" data-sr-complete="true">That means delivering great solutions.</div>
                     <br />
                     <br />
                     <br />
-                    <div className="small-intro" data-scrollreveal="enter left after 2s over 1s" data-sr-init="true" data-sr-complete="true">We're a technology company with real people skills :) </div>
+                    
 
                   </div>
                   
                 </div>
               </div>
             </section>
+
+
+            <br />
+            <br />
+            <Customers  />
+     
 
             <Contact changePageContact={ this.props.changePageContact } />
      

@@ -44,9 +44,9 @@ class About extends Component {
                                 <div className="circle-avatar" style={mj}>
                                 </div>
                                 <h3>Mike Johnson</h3>
-                                <p>Some great text about myself.</p>
+                                <p>Loves technology, loves simplicity, loves providing technology solutions in order to stimulate business growth. Mike has been providing enterprise level solutions since 2009. </p>
                             </div>
-                            <div className="col-md-4 col-sm-12 focus-box">
+                            {/*<div className="col-md-4 col-sm-12 focus-box">
                                 <div className="circle-avatar" style={janine}>
                                 </div>
                                 <h3>Janine Johnson</h3>
@@ -57,7 +57,7 @@ class About extends Component {
                                 </div>
                                 <h3>Clint McDonnel</h3>
                                 <p>SEO guru and customer relations.</p>
-                            </div>
+                            </div>*/}
                             <br />
                             <hr />
                             <br />

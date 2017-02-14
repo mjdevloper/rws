@@ -38,7 +38,7 @@ ol {
 }
 
 body {
-    /*background: #5AA9CE url(require('./images/bg2.png) no-repeat;*/
+    /*background: #5AA9CE url(require('../images/bg2.png) no-repeat;*/
     background-size: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ li {
 }
 
 .content {
-    /*background: url(require('./images/bg3.png) no-repeat;*/
+    /*background: url(require('../images/bg3.png) no-repeat;*/
     background: url('../images/bg2-t.png') no-repeat;
     background-color: #333;
     background-size: 100%;
@@ -397,7 +397,7 @@ li {
 }
 
 .down-arrow span {
-    background: url(require('./images/downarrow.png');
+    background: url('../images/downarrow.png');
     width: 50px;
     height: 50px;
     display: block;
@@ -429,11 +429,11 @@ li {
 }
 
 .da-arrows-prev {
-    background: url(require('./images/sprite.png') no-repeat 0px 0px;
+    background: url('../images/sprite.png') no-repeat 0px 0px;
 }
 
 .da-arrows-next {
-    background: url(require('./images/sprite.png') no-repeat -80px 0px;
+    background: url('../images/sprite.png') no-repeat -80px 0px;
 }
 
 .da-slider:hover .da-arrows span {
@@ -558,7 +558,6 @@ li {
 .caption-info-head-right span {
     width: 20px;
     height: 16px;
-    background: url(require('./images/arrows.png') no-repeat 0px 0px;
     display: inline-block;
 }
 
@@ -740,7 +739,7 @@ li {
     background: rgb(102, 135, 169);
     /* Fall-back for browsers that don't support rgba */
     background: rgba(102, 135, 169, 0.9);
-    background: #5AA9CE url(require('./images/bg2.png') no-repeat;
+    background: #5AA9CE url('../images/bg2.png') no-repeat;
 }
 
 .skills .heading {
@@ -1254,7 +1253,7 @@ footer ul.contacts li {
     height: 40px;
     border: none;
     text-indent: 100%;
-    background: url(require('./images/top.png') no-repeat right top;
+    background: url('../images/top.png') no-repeat right top;
 }
 
 
@@ -1262,7 +1261,7 @@ footer ul.contacts li {
 
 .modal-content {
     max-width: 600px;
-    background: #fff url(require('./images/promo.png') no-repeat 0 0;
+    background-color: #fff;
     background-size: 100% 100%;
     border: none;
     border-radius: 0;
@@ -2163,4 +2162,8 @@ div.circle-avatar {
 .modal-body {
     height: auto;
     min-height: 200px;
+}
+
+.clients img{
+    margin:15px;
 }

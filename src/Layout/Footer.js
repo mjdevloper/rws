@@ -19,8 +19,10 @@ class Footer extends Component{
                     <div className="container inner">
                         <div className="row">
                             <div className="col-md-4 col-sm-12 inner">
-                                <h4>Meet the experts</h4>
-                                <p><a href="/#/about">Click here</a> to learn about the team at RWS. Thanks to our dedicated team of experts, we're able to offer a wide range of solutions to meet the demands and expectations of your business, and the market. </p>
+                                <h4>Technology Solutions</h4>
+                                <p>Thanks to our dedicated team of experts, we're able to offer a wide range of solutions to meet the demands and expectations of your business, and the market. </p>
+                                {/*<h4>Meet the expert</h4>
+                                <p><a href="/#/about">Click here</a> to learn about the team at RWS. Thanks to our dedicated team of experts, we're able to offer a wide range of solutions to meet the demands and expectations of your business, and the market. </p>*/}
                             </div>
                             <div className="col-md-4 col-sm-12 inner">
                                 <h4>Get In Touch</h4>
@@ -28,7 +30,7 @@ class Footer extends Component{
                                 <ul className="contacts">
                                     <li><i className="fa"></i><a href="tel:+15393024616">(539) 302-4616</a></li>
                                     <li><i className="fa"></i><a href="mailto:inquiries@remotewebsolutions.com">Email</a></li>
-                                    <li><i className="fa"></i><a href="/#/contact" >Contact Form</a></li>
+                                    {/*<li><i className="fa"></i><a href="/#/contact" >Contact Form</a></li>*/}
                                 </ul>
                             </div>
                             <div className="col-md-4 col-sm-12 inner">
@@ -42,7 +44,7 @@ class Footer extends Component{
                         <div className="container inner">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <p className="copy">&copy; 2017 Remote Web Solutions. All rights reserved.</p>
+                                    <p className="copy">&copy; 2017 RWS Group, LLC . All rights reserved.</p>
                                 </div>
                                 
                                 <div className="col-md-6 hidden">
